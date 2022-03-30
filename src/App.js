@@ -6,7 +6,7 @@ import Register from './pages/Register/Register';
 const App = () => {
   return (
     <div>
-      <Home/>
+      <Register/>
 
     </div>
   )

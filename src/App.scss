@@ -1,6 +1,28 @@
 :root {
     --main-color: #0b0b0b;
-    --linear-gradient: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%) ;
+    --secondary-color: white ;
+    --tertiary-color: gray;
+
+    --linear-gradient-navbar: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%) ;
+    --linear-gradient-login: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),
+    url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/06/series-netflix.jpg?itok=e_UM8TMx");
+
+    --side-arrows-color: white;
+    --side-arrows-bg: rgb(22, 22, 22, 0.5);
+
+    --login-button-color: white;
+    --login-button-bg: red;
+
+    --register-button-color:white;
+    --register-button-bg: red;
+    --register-inputs-bg: white;
+
+    --login-input-color: white;
+    --login-imput-bg: gray;
+
+    --item-bg-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+
+    --buttons-color: white;
 }
 
 
