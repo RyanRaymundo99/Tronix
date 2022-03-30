@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <div className={isScrolled ? 'navbar scrolled' : 'navbar'}>
-      <div className='navbar_container'>
-        <div className='navbar_leftside'>
+      <div className='navbar__container'>
+        <div className='navbar__left-side'>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" alt="logo" />
 
             <span>Homepage</span>
@@ -22,14 +22,14 @@ const Navbar = () => {
             <span>New and Popular</span>
             <span>My List</span>
         </div>
-        <div className='navbar_rightside'>
-            <Search className='navbar_search-icon'/>
+        <div className='navbar__right-side'>
+            <Search className='navbar__search-icon'/>
             <span>Kid</span>
-            <Notifications className='navbar_notification-icon'/>
-            <Person className='navbar_user-icon'/>
+            <Notifications className='navbar__notification-icon'/>
+            <Person className='navbar__user-icon'/>
 
-            <div className='profile'>
-            <ArrowDropDown className='navbar_arrowdown-icon'/>
+            <div className='navbar__profile'>
+            <ArrowDropDown className='navbar__arrow-down-icon'/>
               <div className='options'>
                 <span>Settings</span>
                 <span>Logout</span>

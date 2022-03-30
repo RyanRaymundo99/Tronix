@@ -11,14 +11,14 @@
         background-color: var(--main-color);
     }
 
-    .navbar_container {
+    .navbar__container {
         padding: 0px 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 70px;
 
-        .navbar_leftside {
+        .navbar__left-side {
             display: flex;
             align-items: center;
 
@@ -33,18 +33,18 @@
             }
         }
 
-        .navbar_rightside {
+        .navbar__right-side {
             display: flex;
             align-items: center;
 
-            .navbar_search-icon,
-            .navbar_notification-icon,
-            .navbar_user-icon {
+            .navbar__search-icon,
+            .navbar__notification-icon,
+            .navbar__user-icon {
                 margin: 0px 10px;
                 cursor: pointer;
             }
 
-            .navbar_arrowdown-icon {
+            .navbar__arrow-down-icon {
                 margin-left: -20px;
             }
             
@@ -53,7 +53,7 @@
                 cursor: pointer;
             }
 
-            .profile {
+            .navbar__profile {
                 .options {
                     display: none;
                     background-color: var(--main-color);

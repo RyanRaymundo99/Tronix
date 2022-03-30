@@ -2,7 +2,7 @@
   height: 90vh;
   position: relative;
 
-  .category {
+  .featured__category {
     position: absolute;
     top: 80px;
     left: 50px;
@@ -29,11 +29,11 @@
     object-fit: cover;
   }
 
-  .info {
+  .featured__info {
     width: 35%;
     position: absolute;
     left: 50px;
-    bottom: 100px;
+    bottom: 30px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -42,11 +42,11 @@
       width: 400px;
     }
 
-    .desc {
+    .featured__description {
       margin: 20px 0px;
     }
 
-    .buttons {
+    .featured__buttons {
       display: flex;
 
       button {
@@ -61,12 +61,12 @@
         margin-right: 10px;
         cursor: pointer;
 
-        &.play {
+        &.featured__buttons-play {
           background-color: white;
           color: var(--main-color);
         }
 
-        &.more {
+        &.featured__buttons-more {
           background-color: gray;
           color: white;
         }
