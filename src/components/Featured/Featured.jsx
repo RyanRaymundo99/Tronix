@@ -6,7 +6,7 @@ export default function Featured({ type }) {
     <div className="featured">
       {type && (
         <div className="featured__category">
-          <span>{type === "movie" ? "Movies" : "Series"}</span>
+          <span>{type === "movies" ? "Movies" : "Series"}</span>
           <select name="genre" id="genre">
             <option>Genre</option>
             <option value="adventure">Adventure</option>
